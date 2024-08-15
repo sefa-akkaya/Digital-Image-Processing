@@ -165,6 +165,6 @@ button_dosya.place(relx = 0.1,rely = 0.150,anchor="w")
 button_foto.place(relx = 0.1,rely = 0.3,anchor="w")
 drop.place(relx = 0.1,rely = 0.45,anchor="w")
 submit_button.place(relx = 0.1,rely = 0.6,anchor="w",)
-
+ 
 
 program.mainloop()
