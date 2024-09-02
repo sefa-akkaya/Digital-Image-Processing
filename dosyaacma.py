@@ -1,5 +1,5 @@
 from tkinter import Tk
-from tkinter.filedialog import askopenfilename
+from tkinter.filedialog import askopenfilename 
  
 def foto_yukle(): 
     Tk().withdraw()   
