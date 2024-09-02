@@ -2,7 +2,7 @@ import tkinter
 from tkinter import filedialog
 from PIL import Image, ImageTk
 from tkinter import ttk  
-import filter   
+import filter    
 import file
 import dosyaacma 
 global a   
