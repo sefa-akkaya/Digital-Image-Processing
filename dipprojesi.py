@@ -1,7 +1,7 @@
 import tkinter
 from tkinter import filedialog
 from PIL import Image, ImageTk
-from tkinter import ttk
+from tkinter import ttk 
 import filter
 import file
 import dosyaacma
@@ -150,7 +150,7 @@ def goster_foto():
     photo = Image.open(a)#open image
     resize = photo.resize((300,400),Image.ANTIALIAS)
     original = ImageTk.PhotoImage(resize)
-    label1 = tkinter.Label(program,image = original)
+    label1 = tkinter.Label(program,image = original) 
     label1.place(relx = 0.45, rely = 0.1)
     #filtreliyi_goster(a,filtre_adi())#filtreli halini bastiracak.
     program.mainloop()
