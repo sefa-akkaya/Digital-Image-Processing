@@ -7,3 +7,4 @@ def foto_yukle():
     return filename  
   
   
+ 
