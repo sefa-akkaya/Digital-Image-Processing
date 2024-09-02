@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 from tkinter import ttk 
 import filter  
 import file
-import dosyaacma
+import dosyaacma 
 global a   
 program = tkinter.Tk()
 photo = Image.open("C:/Users/SEFA/Desktop/bg.png")#open image
