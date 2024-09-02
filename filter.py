@@ -3,7 +3,7 @@ def resim_al():
     resim = input()
     return resim  
 def negative(resim):
-    img = Image.open(resim)  
+    img = Image.open(resim)     
     for i in range(0, img.size[0]-1): 
         for j in range(0, img.size[1]-1):
             pixelColorVals = img.getpixel((i,j));
