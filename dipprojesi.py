@@ -6,7 +6,7 @@ import filter
 import file
 import dosyaacma 
 global a   
-program = tkinter.Tk()
+program = tkinter.Tk() 
 photo = Image.open("C:/Users/SEFA/Desktop/bg.png")#open image
 resize = photo.resize((1920,1080),Image.ANTIALIAS)
 bgimg = ImageTk.PhotoImage(resize)
