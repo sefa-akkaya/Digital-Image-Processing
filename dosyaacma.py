@@ -3,6 +3,6 @@ from tkinter.filedialog import askopenfilename
  
 def foto_yukle():
     Tk().withdraw()   
-    filename = askopenfilename()
+    filename = askopenfilename() 
     return filename  
   
