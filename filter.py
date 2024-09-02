@@ -4,7 +4,7 @@ def resim_al():
     return resim  
 def negative(resim):
     img = Image.open(resim)  
-    for i in range(0, img.size[0]-1):
+    for i in range(0, img.size[0]-1): 
         for j in range(0, img.size[1]-1):
             pixelColorVals = img.getpixel((i,j));
             redPixel    = 255 - pixelColorVals[0]; # Negate red pixel
@@ -17,7 +17,7 @@ def negative(resim):
 
 def blur(resim):
     image = Image.open(resim)
-    image_blur = image.filter(ImageFilter.BLUR)
+    image_blur = image.filter(ImageFilter.BLUR) 
     temp = image_blur.resize((300,400),Image.ANTIALIAS)
     temp.save("C:/Users/SEFA/Desktop/PYTHON/blur.png")
     return 'C:/Users/SEFA/Desktop/PYTHON/blur.png'

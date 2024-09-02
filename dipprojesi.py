@@ -2,10 +2,10 @@ import tkinter
 from tkinter import filedialog
 from PIL import Image, ImageTk
 from tkinter import ttk 
-import filter
+import filter  
 import file
 import dosyaacma
-global a 
+global a   
 program = tkinter.Tk()
 photo = Image.open("C:/Users/SEFA/Desktop/bg.png")#open image
 resize = photo.resize((1920,1080),Image.ANTIALIAS)
@@ -16,7 +16,7 @@ program.title("Digital Image Processing")
 program.geometry("1920x1080")
 def name_of_filter():
     name = clicked.get()
-    return name
+    return name 
 clicked = tkinter.StringVar(program)
 clicked.set("Select an option:")
 drop = tkinter.OptionMenu(program,clicked,"Negative","Blur","Contour","Detail","Edge","Find Edge","Emboss","Sharp","Smooth","Minimum","Median","Maximum","Gauss")
