@@ -1,7 +1,7 @@
 from PIL import Image, ImageFilter, ImageOps, ImageTk
 def resim_al():
     resim = input()
-    return resim
+    return resim 
 def negative(resim):
     img = Image.open(resim)
     for i in range(0, img.size[0]-1):
