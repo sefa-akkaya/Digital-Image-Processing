@@ -6,4 +6,4 @@ def foto_yukle():
     filename = askopenfilename() 
     return filename  
   
- 
+  
