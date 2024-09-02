@@ -5,7 +5,7 @@ def resim_al():
 def negative(resim):
     img = Image.open(resim)     
     for i in range(0, img.size[0]-1): 
-        for j in range(0, img.size[1]-1):
+        for j in range(0, img.size[1]-1): 
             pixelColorVals = img.getpixel((i,j));
             redPixel    = 255 - pixelColorVals[0]; # Negate red pixel
             greenPixel  = 255 - pixelColorVals[1]; # Negate green pixel
