@@ -8,7 +8,7 @@ def negative(resim):
         for j in range(0, img.size[1]-1): 
             pixelColorVals = img.getpixel((i,j));
 
-
+ 
 
 
             redPixel    = 255 - pixelColorVals[0]; # Negate red pixel      
